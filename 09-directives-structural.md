@@ -2,7 +2,9 @@
 
 ## Using Structural Directives
 
-1. Some data has been received which looks like this:
+### Rendering a List of Items
+
+Some data has been received which looks like this:
 
         [
           {
@@ -27,3 +29,10 @@
 
    Write a component that displays each contact using `*ngFor`.
 
+### Conditional Rendering
+
+1. In the previous exercise you created two components: an input box with a coloured border, and a warning component. Have the input box display the warning component only if the field is empty:
+
+    ![](images/directives-structural-exercise.png)
+
+2. How would you render a separate piece of content (or component) if the input field is valid? Implement it.
