@@ -6,4 +6,4 @@
 
 ## Using Events with Property Binding
 
-Write a `SelectImageComponent`. This should display an `<img>` element and four buttons. Each button chooses a different image, and when clicked, the `<img>` element should display the chosen image. Some images are available for you in [images/](tree/master/images).
+Write a `SelectImageComponent`. This should display an `<img>` element and four buttons. Each button chooses a different image, and when clicked, the `<img>` element should display the chosen image. Some images are available for you in [images/](/tree/master/images).
