@@ -4,7 +4,6 @@
 
 2. Create a component that tracks the current mouse location within an element and displays the cursor coordinates whenever the mouse moves.
 
-
 ## Using Events with Property Binding
 
-Write a `SelectImageComponent`. This should display an `<img>` element and four buttons. Each button chooses a different image, and when clicked, the `<img>` element should display the chosen image. Some images are available for you in [images/]().
+Write a `SelectImageComponent`. This should display an `<img>` element and four buttons. Each button chooses a different image, and when clicked, the `<img>` element should display the chosen image. Some images are available for you in [images/](tree/master/images).
