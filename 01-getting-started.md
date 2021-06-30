@@ -22,7 +22,7 @@
 3. Once it is complete, run your app:
 
        $ cd my-app
-       $ ng serve --open
+       $ npm start
 
    Your browser should open, though you can always view your app by navigating to http://localhost:4200/.
 
@@ -61,7 +61,6 @@ The project tree looks something like this:
 ├── e2e/
 ├── karma.conf.js
 ├── package.json
-├── protractor.conf.js
 ├── src/
 │   ├── app/
 │   │   ├── app.component.css
