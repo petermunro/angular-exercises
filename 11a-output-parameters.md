@@ -4,7 +4,7 @@ Create a component, `TweetBox`, that lets users send a tweet or another kind of 
 
 It could be invoked like this:
 
-	<app-tweetbox (onSend)="handleSend($event)"></app-tweetbox>
+	<app-tweetbox (send)="handleSend($event)"></app-tweetbox>
 
 It should display the following:
 
