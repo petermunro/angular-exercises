@@ -7,10 +7,10 @@
 
 ## Stretch Goal
 
-3. Earlier you wrote a component that retrieved data from a server via an HTTP request, using `HttpService`. Refactor this so that the UI component is shielded from knowing where the data comes from by adding an intervening service:
+3. Earlier you wrote a component that retrieved data from a server via an HTTP request, using `HttpClient`. Refactor this so that the UI component is shielded from knowing where the data comes from by adding an intervening service:
 
-        Component -> DataService -> HttpService
+        Component -> DataService -> HttpClient
 
 Verify that it works in the browser.
 
-4. Write a test for this intervening service. You will need to mock out the `HttpService`.
+4. Write a test for this intervening service. You will need to mock out the `HttpClient`.
